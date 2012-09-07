@@ -45,19 +45,19 @@
 		<div class="container">
 		
 			<ul id="main-nav">
-				<li class="active">
+				<li {% if page.title == 'index' %}class="active" {% endif %}>
 					<a href="./index.html">Home</a>
 				</li>
 				
-				<li>
+				<li {% if page.title == 'about' %}class="active" {% endif %}>
 					<a href="./about.html">About</a>
 				</li>
 				
-				<li>
+				<li {% if page.title == 'services' %}class="active" {% endif %}>
 					<a href="./services.html">Services</a>
 				</li>
 				
-				<li>
+				<li {% if page.title == 'contact' %}class="active" {% endif %}>
 					<a href="./contact.html">Contact</a>
 				</li>
 				
