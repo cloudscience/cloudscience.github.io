@@ -52,16 +52,22 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a class="page-scroll" href="#overview">Overview</a>
+                  </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#products">Products</a>
+                    </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-
-                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -72,25 +78,29 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-              <p class="logo">&nbsp;</p>
+              <img src="../img/logo.png" class="logo"/>
 
 
                 <hr>
-                  <p>Cloud Science deeply understands concerns around security of cloud services. We specialize in easing the use of the cloud by large, complicated, and heavily regulated organizations through extensive, multi-vendor experience.</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                  <h2>Make DFIR in the <i class="fa fa-2x fa-cloud wow bounceIn text-primary"> </i>  a non-issue.</h2>
+                  <hr>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a><br /><br />
+                <a href="#cheatsheet" class="btn btn-default btn-xl page-scroll">Free AWS DFIR Cheatsheet</a>
             </div>
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
+    <section class="bg-primary" id="overview">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">Use the cloud safely</h2>
                     <hr class="light">
                     <p class="text-faded">Cloud Science has everything you need to increase your security, assurance and agility.</p>
+                    <p class="text-faded">Our unique, industry leading expertise allows for a deep understanding of concerns around security of cloud services for everyone from the Fortune 10 and the US Department of Defense to the smallest PCI-DSS or HIPAA regulated entity.
                     <p class="text-faded">
-                      Templates, project plans, architecture examples, security analysis, business case and total cost of ownership examples all available to enable rapid turnaround, based on a decade of cloud computing experience!</p>
+                      We specialize in easing the use of the cloud by large, complicated, and heavily regulated organizations through extensive, multi-vendor experience.  Accelerate getting your CSO/CISO to 'yes', and increase their level of comfort, without impacting your speed.</p>
+                    <p class="text-faded"> AWS, Azure, GCE, Docker, Cloud Foundry, OpenShift - we can help with all of them.</p>
                     <a href="mailto:newbiz@cloudscience.io" class="btn btn-default btn-xl">Get Started!</a>
                 </div>
             </div>
@@ -112,6 +122,7 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-fire-extinguisher wow bounceIn text-primary"></i>
                         <h3>Incident Response</h3>
+                        <p class="text-muted">Don't get caught having to learn cloud-based incident response after your first incident!  We can help you plan, or we can do it for you.</p>
 
                     </div>
                 </div>
@@ -119,6 +130,7 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-search wow bounceIn text-primary" data-wow-delay=".1s"></i>
                         <h3>Cloud Forensics</h3>
+                        <p class="text-muted">Cloud Science has helped set the standards for forensics and incident response in the DoD and other large, security-focused organizations.  Let us help you prepare as well.</p>
 
                     </div>
                 </div>
@@ -126,6 +138,7 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
                         <h3>Security-focused Technical &amp; Cultural Training</h3>
+                        <p class="text-muted">Your teams will need training on many new things in the cloud - we can cover it all, from security, DFIR, operations and development to acquisitions and policy.  Get in touch for custom workshops or more indepth course offerings.</p>
 
                     </div>
                 </div>
@@ -133,50 +146,96 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
                         <h3>Passionate about Cloud</h3>
+                        <p class="text-muted">Cloud is the future, and we want to help you get there!  We've been 100% cloud-centric from the beginning, focusing on enterprise cloud-side operations since 2010.</p>
 
                     </div>
                 </div>
+            </div>
+          </div>
+        </section>
+        <section id="products">
+          <div class="container"
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Products</h2>
+                <hr class="primary">
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <p class="text-muted">Don't get caught having to learn cloud-based incident response after your first incident!  We can help you plan, or we can do it for you.</p>
-                    </div>
+              <div class="col-lg-6 col-md-6 text-center">
+                  <div class="service-box">
+                      <i class="fa fa-4x fa-search-plus wow bounceIn text-primary"></i>
+                      <h3>CS-FIM</h3>
+                      <p class="text-muted">COMING SOON! Take advantage of the power of the cloud and perform file integrity monitoring across your IaaS disk volumes without interruption to systems/servers in a continous fashion.  Nothing to install, no system agents, no network or firewall configurations to change - just cloud native integrty monitoring for all IaaS disk volumes.  Sign up for the Beta on AWS (to be launched at Re:Invent 2016) by sending an email here: <a href="mailto:fim-beta@cloudscience.io">fim-beta@cloudscience.io</a></p>
+                  </div>
+              </div>
+            <div class="col-lg-6 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-times wow bounceIn text-primary"></i>
+                    <h3>CS-HUNT</h3>
+                    <p class="text-muted">COMING SOON! Leverage the SDN/SDS capabilities of the major IaaS providers to enable your hunt teams and DFIR analysts to do distributed, cloud-wide hunting and IOC queries, <em>without impacting system performance</em> and without having to change configurations, firewalls, grant system access, etc.  Like CS-FIM, there i nothing to install, no system agents, no network or firewall configurations to change - just cloud native IOC hunting and alerting capabilities for your analysts.  Sign up for the Beta on AWS (to be launched at Re:Invent 2016) by sending an email here: <a href="mailto:hunt-beta@cloudscience.io">hunt-beta@cloudscience.io</a></p>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <p class="text-muted">Cloud Science has helped set the standards for forensics and incident response in the DoD and other large, security-focused organizations.  Let us help you prepare as well.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <p class="text-muted">Your teams will need training on many new things in the cloud - we can cover it all, from security, DFIR, operations and development to acquisitions and policy.  Get in touch for custom workshops or more indepth course offerings.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <p class="text-muted">Cloud is the future, and we want to help you get there!  We've been 100% cloud-centric from the beginning, focusing on enterprise cloud-side operations since 2010.</p>
-                    </div>
-                </div>
-            </div>
 
+          </div>
         </div>
     </section>
+    <section class="bg-primary" id="cheatsheet">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Get a free AWS DFIR Cheatsheet!</h2>
+                    <hr class="light">
+                    <p class="text-faded">Sign-up to get a copy of our AWS DFIR cheatsheet, showing the DFIR attributes, data sources and prep-requirements for all :FIXME: 74 AWS services.</p>
+                    <p class="text-faded">
+                      Disk images, memory dumps, system logs, authentication logs, network flow logs and/or packet captures, etc. may or may not be available (or may require preperation prior to an incident to capture that incident).  Don't get caught short, or spend precious incident repsonse time learning whats available from scratch.</p>
+                    <a href="mailto:newbiz@cloudscience.io" class="btn btn-default btn-xl">Download Cheatsheet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-default" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">About Cloud Science</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 text-center">
+                                <div class="service-box">
+                                    <img src="../img/lenny.png" width="221px" height="221px"/>
+                                    <h3>Lenny Crosby, CEO :FIXME:</h3>
+                                    <p class="text-muted">Lenny, a retired career Naval Officer, has decades of management and leadership experience in some of the harshest condititions and unforgiving organizations in the world. He understands what 'mission critical' really means, and ensures Cloud Science delivery is done to an exacting standard.</p>
 
-    <section id="contact">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 text-center">
+                                <div class="service-box">
+                                    <img src="../img/adam.png" width="221px" height="221px"/>
+                                    <h3>Adam Crosby, CTO :FIXME:</h3>
+                                    <p class="text-muted">Adam has a deep and expansive background, from incident response/analysis to red teaming and security architecture. From the Intelligence Community &amp; DoD to the Big 4 &amp; the Fortune 200, Adam has nearly 2 decades of experience, with an exclusive focus on cloud security since 2010.</p>
+
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we can get started right away!</p>
+                    <hr class="default">
+                    <p class="text-faded">Ready to start your next project with us? That's great! Give us a call or send us an email and we can get started right away!</p>
                 </div>
-                                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:newbiz@cloudscience.io">newbiz@cloudscience.io</a></p>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn default" data-wow-delay=".1s"></i>
+                    <p class="text-faded"><a class="text-faded" href="mailto:newbiz@cloudscience.io">newbiz@cloudscience.io</a></p>
                 </div>
             </div>
-
+          </div>
+    </section>
+    <section id="legal">
+        <div class="container">
             <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
               <hr class="primary">
