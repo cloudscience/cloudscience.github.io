@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
+    <meta name="author" content="Coderthemes">
 
     <!-- Favicon icon -->
     <link rel="shortcut icon" href="images/favicon.ico">
 
     <!-- Site Title -->
-    <title>cloudscience - Bridging IT/OT</title>
+    <title>Starto - Responsive Landing Template</title>
 
     <!-- Google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
@@ -23,6 +24,10 @@
 
     <!-- Icon-font -->
     <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
+
+    <!--owl carousel css-->
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" type="text/css" media="screen">
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
@@ -38,7 +43,7 @@
 
   </head>
 
-<body data-spy="scroll" data-target="#navbar-menu" class="layout-dark">
+<body data-spy="scroll" data-target="#navbar-menu">
 
   <div class="navbar navbar-custom navbar-fixed-top sticky" role="navigation">
       <div class="container">
@@ -64,19 +69,19 @@
           <!-- Navbar left -->
           <ul class="nav navbar-nav nav-custom-left">
             <li class="active">
-              <a href="#home">Home</a>
+              <a href="index.html#home">Home</a>
             </li>
             <li>
-              <a href="#features">Features</a>
+              <a href="index.html#features">Features</a>
             </li>
             <li>
-              <a href="#pricing">Plans</a>
+              <a href="index.html#pricing">Plans</a>
             </li>
             <li>
-              <a href="#team">Team</a>
+              <a href="index.html#team">Team</a>
             </li>
             <li>
-              <a href="#faq">FAQ</a>
+              <a href="index.html#faq">FAQ</a>
             </li>
             <li class="dropdown">
               <a href="#" data-toggle="dropdown">
@@ -92,7 +97,6 @@
             </li>
           </ul>
 
-          <!-- Navbar right -->
           
 
         </div>
@@ -103,24 +107,17 @@
   <!-- End navbar-custom -->
 
 
-
-
   <!-- HOME -->
-  <section class="home" id="home">
+  <section class="home">
     <!-- <div class="bg-overlay"></div> -->
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
 
-          <div class="home-wrapper text-center">
+          <div class="home-wrapper home-wrapper-sm text-center">
             <h2 class="animated fadeInDown wow" data-wow-delay=".1s">
-              Cloud Science -  <span class="text-colored">Bridging IT & OT</span>
+              About <span class="text-colored">Us</span>
             </h2>
-            <p class="animated fadeInDown wow text-muted" data-wow-delay=".2s">
-              Cloud Science delivers securely managed connectivity, data science, cloud storage and engineering to allow your organization to unlock the value of it's Operational Technology.
-            </p>
-            <a href="contact.html" class="btn btn-primary btn-shadow btn-rounded w-lg animated fadeInDown wow" data-wow-delay=".4s">Contact Us</a>
-            <div class="clearfix"></div>
           </div><!-- home wrapper -->
 
         </div> <!-- end col -->
@@ -129,70 +126,50 @@
   </section>
   <!-- END HOME -->
 
-  <!-- FEATURES-ALT -->
-  <section class="section" id="features">
+
+  <!-- About -->
+  <section class="section">
     <div class="container">
 
       <div class="row">
-        <div class="col-sm-6">
-          <div class="feature-detail">
 
-            <div class="title-box">
-              <p class="title-alt">Features</p>
-              <h3 class="fadeIn animated wow text-white" data-wow-delay=".1s">Cloud Science Bridge</h3>
-              <div class="border"></div>
+        <div class="col-sm-6">
+          <img src="images/about.jpg" alt="about Img" class="img-responsive about-img img-rounded">
+        </div> <!-- end col -->
+
+        <div class="col-sm-6">
+
+          <div class="about-txt">
+            <h3>Broad experience, focused delivery.</h3>
+
+            <p>Cloud Science, founded in 2015 in Norfolk, VA, is a provider of managed security services for Operational Technology (OT - ICS, SCADA, etc.) systems, through it's Bridge service.</p>
+
+            <p>Cloud Science people range in backgrounds from chemical engineering to embedded hardware design to defense and intelligence cyber security.</p>
+
+            <div class="fun_facts_box text-center">
+                <i class="zmdi zmdi-book-image text-colored fun_facts_icons"></i>
+                <p class="fun_facts_title"><span class="facts_numbers">2015</span><br>Year Founded</p>
+            </div><!--end fun_facts_box -->
+
+            <div class="fun_facts_box text-center">
+                <i class="zmdi zmdi-accounts-alt text-colored fun_facts_icons"></i>
+                <p class="fun_facts_title"><span class="facts_numbers">152</span><br>Years of Experience</p>
+            </div><!--end fun_facts_box -->
+
+            <div class="fun_facts_box text-center">
+                <i class="zmdi zmdi-headset-mic text-colored fun_facts_icons"></i>
+                <p class="fun_facts_title"><span class="facts_numbers">24/7</span><br>Fast Support</p>
             </div>
+            <!--end fun_facts_box -->
+          </div><!-- end about text -->
 
-            <ul class="zmdi-hc-ul">
-              <li class="fadeIn animated wow" data-wow-delay=".1s"><i class="zmdi-hc-li zmdi zmdi-caret-right-circle text-colored"></i><span class="text-muted">Full managed service.</span></li>
+        </div> <!-- end col -->
 
-              <li class="fadeIn animated wow" data-wow-delay=".2s"><i class="zmdi-hc-li zmdi zmdi-caret-right-circle text-colored"></i><span class="text-muted">Connect virtually any device to virtually any data destination.</span></li>
-
-              <li class="fadeIn animated wow" data-wow-delay=".3s"><i class="zmdi-hc-li zmdi zmdi-caret-right-circle text-colored"></i><span class="text-muted">Get the benefits of modern IoT for legacy devices.</span></li>
-
-              <li class="fadeIn animated wow" data-wow-delay=".4s"><i class="zmdi-hc-li zmdi zmdi-caret-right-circle text-colored"></i><span class="text-muted">No CapEx, no hardware to purchase.</span></li>
-
-
-
-            </ul>
-
-            <a href="contact.html" class="btn btn-primary btn-shadow btn-rounded w-lg animated fadeInDown wow" data-wow-delay=".4s">Contact Us</a>
-          </div>
-        </div>
-
-        <div class="col-sm-6">
-          <img src="images/macbook.png" class="img-responsive fadeIn animated wow" data-wow-delay=".2s">
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- END FEATURES-ALT -->
-
-  <!-- FEATURES -->
-  <section class="section bg-gray" id="features">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <div class="title-box">
-            <p class="title-alt">Services</p>
-            <h3 class="fadeIn animated wow " data-wow-delay=".1s">Bridge</h3>
-            <div class="border"></div>
-          </div>
-        </div>
       </div> <!-- end row -->
-      <div class="row text-center">
-        <div class="col-sm-12 text-center">
-          <img src="images/bridge.png" class="img-responsive fadeIn animated wow" data-wow-delay=".2s">
-        </div>
-      </div>
-
 
     </div> <!-- end container -->
   </section>
-  <!-- END FEATURES -->
-
+  <!-- END About -->
 
 
   <!-- TEAM -->
@@ -289,80 +266,60 @@
 
 
 
-  <!-- FAQ -->
-  <section class="section" id="faq">
+
+  <!-- TESTIMONIALS -->
+
+<!--  <section class="section">
     <div class="container">
 
       <div class="row">
         <div class="col-sm-12 text-center">
           <div class="title-box">
-            <p class="title-alt">Faq</p>
-            <h3 class="fadeIn animated wow text-white" data-wow-delay=".1s">Simple Questions</h3>
+            <p class="title-alt">Testimonials</p>
+            <h3 class="fadeIn animated wow" data-wow-delay=".1s">Happy Clients</h3>
             <div class="border"></div>
           </div>
         </div>
-      </div> <!-- end row -->
-
-      <div class="row m-t-30">
-        <div class="col-md-5 col-md-offset-1">
-          <!-- Question/Answer -->
-          <div class="animated fadeInLeft wow" data-wow-delay=".1s">
-            <div class="question-q-box">Q.</div>
-            <h4 class="question text-white" data-wow-delay=".1s">Why do I need Bridge for my OT network?</h4>
-            <p class="answer">Many OT devices run software that is unsafe to connect to the Internet, or even a corporate network. Bridge provides a highly secure, monitored, and managed method of enabling that connectivity.</p>
-          </div>
-
-          <!-- Question/Answer -->
-
-          <div class="animated fadeInLeft wow" data-wow-delay=".3s">
-            <div class="question-q-box">Q.</div>
-            <h4 class="question text-white">I don't have a network connection, or WiFi is spotty in my plant, will Bridge work?</h4>
-            <p class="answer">Bridge Anchor gateways can utilize many communications channels, including WiFi, LTE/3G Cellular, wired ethernet and Iridium.  The appropriate connectivity method will be determined during your integration planning.</p>
-          </div>
-
-          <!-- Question/Answer -->
-
-          <div class="animated fadeInLeft wow" data-wow-delay=".5s">
-            <div class="question-q-box">Q.</div>
-            <h4 class="question text-white">How many OT communications protocols can Anchor support?</h4>
-            <p class="answer">Anchor can support most common industrial protocols and interconnects, and Cloud Science will gladly work with you to add support for your protocol if it's not currently available.</p>
-          </div>
-
-        </div>
-        <!--/col-md-5 -->
-
-        <div class="col-md-5">
-          <!-- Question/Answer -->
-
-          <div class="animated fadeInRight wow" data-wow-delay=".2s">
-            <div class="question-q-box">Q.</div>
-            <h4 class="question text-white">Can I get my data out?</h4>
-            <p class="answer">Your data is your data - Cloud Science will enable you to export/download your data if using our cloud storage, or enable you to stream it directly to your own storage in real time.</p>
-          </div>
-
-          <!-- Question/Answer -->
-
-          <div class="animated fadeInRight wow" data-wow-delay=".4s">
-            <div class="question-q-box">Q.</div>
-            <h4 class="question text-white">How is Bridge priced?</h4>
-            <p class="answer">Bridge is priced based on capacity (e.g. number of devices, amount of data thruput), and functionality (e.g. types of bus interconnects, backhaul connectivity, edge computing enablement).</p>
-          </div>
-
-          <!-- Question/Answer -->
-
-          <div class="animated fadeInRight wow" data-wow-delay=".6s">
-            <div class="question-q-box">Q.</div>
-            <h4 class="question text-white">What separates Bridge from other IoT gateways?</h4>
-            <p class="answer">Bridge is a fully managed service, delivering the connectivity, security monitoring and response, and OT integration on an OpEx basis.</p>
-          </div>
-
-        </div>
-        <!--/col-md-5-->
       </div>
 
-    </div>
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <div id="testi-carousel" class="owl-carousel owl-spaced">
+
+            <div class="zoomIn animated wow" data-wow-delay=".1s">
+              <h4 class="testimonials-txt">text goes here</h4>
+              <div class="clientblock">
+                <p><strong>name</strong> <br>
+                Company</p>
+              </div>
+            </div>
+
+            <div class="zoomIn animated wow" data-wow-delay=".1s">
+              <h4 class="testimonials-txt">text goes here</h4>
+              <div class="clientblock">
+                <p><strong>name</strong> <br>
+                Company</p>
+              </div>
+            </div>
+
+            <div class="zoomIn animated wow" data-wow-delay=".1s">
+              <h4 class="testimonials-txt">text goes here</h4>
+              <div class="clientblock">
+                <p><strong>name</strong> <br>
+                Company</p>
+              </div>
+            </div>
+
+        ` </div> -->
+
+        </div> <!-- end col -->
+      </div> <!-- end row -->
+    </div> <!-- end container -->
   </section>
-  <!-- END FAQ -->
+
+  <!--END TESTIMONIALS -->
+
 
 
   <!-- FOOTER -->
@@ -422,10 +379,8 @@
 
   <!-- END FOOTER -->
 
-
   <!-- Back to top -->
   <a href="#" class="back-to-top"> <i class="zmdi zmdi-chevron-up"> </i> </a>
-
 
 
     <!-- js placed at the end of the document so the pages load faster -->
@@ -438,8 +393,33 @@
     <!--sticky header-->
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
 
+    <!-- Owl carousel -->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
     <!--common script for all pages-->
     <script src="js/jquery.app.js"></script>
+
+    <script>
+      /* ==============================================
+      Owl carousel for testimonials
+      =============================================== */
+      $(document).ready(function() {
+          $("#testi-carousel").owlCarousel({
+              // Most important owl features
+              items: 1,
+              itemsCustom: false,
+              itemsDesktop: [1199, 1],
+              itemsDesktopSmall: [980, 1],
+              itemsTablet: [768, 1],
+              itemsTabletSmall: false,
+              itemsMobile: [479, 1],
+              singleItem: false,
+              startDragging: true,
+              autoPlay: true
+          });
+      });
+    </script>
+
 
   </body>
 </html>
